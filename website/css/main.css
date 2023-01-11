@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #49121C;
+  background-image: url(img/fundo.png);
+  margin-bottom: 100px;
+}
+.red_bg {
+  background-color: #BD1623;
+}
+table {
+  width: 100%;
+  align: right;
+  margin-top: 20px;
+}
+th {
+  width: 210px;
+}
+td {
+ text-align: center;
+}
+caption {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table, th, td {
+  border-right: solid 2px;
+  border-collapse: collapse
+}
+th, td {
+  background-color: #2FAC68;
+  padding: 15px;
+}
+p {
+
+}
+a {
+  color: white;
+}
+.contato {
+  color: white;
+}
+.header{
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 6px solid #1C1D1B;
+  background-color: #92212B;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #FEFEFE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1C1D1B;
+}
+.middle_content{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  border-bottom-style: dashed;
+  border-bottom-color: lightgrey;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 60px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.head_box {
+  float: left;
+  width: 33.33%;
+  padding: 0;
+}
+.central {
+  width: 23.33%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.head_image{
+  width: 100%;
+}
+.small_img{
+  height: 500px;
+  margin-left: 30%;
+}
+.textblock {
+  background-color: lightgrey;
+  padding: 22px;
+  font-size: 150%;
+  border-radius: 7px;
+  border-style: groove;
+  text-align: center;
+}
+.apoiadores {
+  display: block;
+  background-color: lightgrey;
+  padding: 22px;
+  font-size: 150%;
+  border-radius: 7px;
+  border-style: groove;
+  text-align: center;
+}
+.apoiadores img {
+  width: 43%;
+  margin: 3%;
+}
+.custom {
+  margin-top: 68px;
+}
