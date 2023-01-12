@@ -109,8 +109,8 @@ li a:hover:not(.active) {
   width: 100%;
 }
 .small_img{
-  height: 500px;
-  margin-left: 30%;
+  height: 450px;
+  margin-left: 10%;
 }
 .textblock {
   background-color: lightgrey;
@@ -130,7 +130,7 @@ li a:hover:not(.active) {
   text-align: center;
 }
 .apoiadores img {
-  width: 43%;
+  width: 13%;
   margin: 3%;
 }
 .custom {
